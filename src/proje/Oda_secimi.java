@@ -331,7 +331,7 @@ public class Oda_secimi extends javax.swing.JFrame {
                 callableStatement = conn.prepareCall(procedure);
                 SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
                 PreparedStatement pst = null;
-                callableStatement.setString(1, "3"); //rezervasyon id otomatik artıyo
+                callableStatement.setString(1, "2"); //rezervasyon id otomatik artıyo
                 callableStatement.setString(2, otel_id);//butondan geliyo
                 callableStatement.setString(3, oda_id);
                 callableStatement.setDouble(4, Double.valueOf(i));//
